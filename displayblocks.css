@@ -1,0 +1,60 @@
+*{
+  height: 0px;
+  width: 0px;
+}
+
+body{
+  background-color: burlywood;
+}
+#wrapper{
+  height: 1000px;
+  width: 970px;
+  background-color: burlywood;
+  padding: 5px;
+  padding-left: 50px;
+}
+
+#header{
+  height: 130px;
+  width: 700px;
+  padding-left: 200px;
+}
+
+.head_image{
+  height: 90px;
+  width: 90px;
+  display: inline-block;
+  vertical-align: top;
+  border: none;
+}
+
+#header h1{
+  width: 300px;
+  color: black;
+  margin-top: 70px;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 15px;
+}
+
+img{
+  margin: 10px;
+  display: inline-block;
+  vertical-align: top;
+  border: 5px solid black;
+}
+
+.odd{
+  background-color: white;
+  border: 15px solid rgba(0, 47, 255, 0.651);
+  outline: 5px solid black;
+  height: 120px;
+  width: 120px;
+}
+
+.even{
+  margin-top: 5px;
+  background-color: rgba(255, 0, 0, 0.61);
+  height: 150px;
+  width: 150px;
+}
